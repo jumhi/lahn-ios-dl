@@ -1,0 +1,33 @@
+{
+  "name": "Lahn",
+  "identifier": "app.lahn.source",
+  "apps": [
+    {
+      "name": "Lahn",
+      "bundleIdentifier": "app.lahn.music.ios",
+      "developerName": "Lahn",
+      "subtitle": "Music, made yours",
+      "localizedDescription": "Lahn for iPhone and iPad.",
+      "iconURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/icon.png",
+      "tintColor": "8C7BFF",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "2026111610",
+          "date": "2026-11-16",
+          "localizedDescription": "First Lahn for iPhone and iPad: Shazam-style Lahn Scan from Control Center and widgets, Equalizer, Listen Together, Talk to Lahn.",
+          "downloadURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/Lahn.ipa",
+          "size": 35720310,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Lahn listens for a few seconds to name the song that's playing around you, then saves it to Scanned Music."
+        }
+      }
+    }
+  ]
+}
