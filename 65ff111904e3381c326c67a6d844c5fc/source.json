@@ -13,6 +13,15 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "1.0.2",
+          "buildVersion": "2026111616",
+          "date": "2026-11-16",
+          "localizedDescription": "Fixes Lahn closing when you scan from Control Center while music is playing. The song now stays in the Dynamic Island for a few seconds.",
+          "downloadURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/Lahn.ipa",
+          "size": 35733843,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.1",
           "buildVersion": "2026111615",
           "date": "2026-11-16",
