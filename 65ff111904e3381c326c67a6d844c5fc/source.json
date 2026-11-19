@@ -13,6 +13,15 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "14.0.0",
+          "buildVersion": "14.0.0",
+          "date": "2026-11-19",
+          "localizedDescription": "Smarter Talk to Lahn, playlist organizer, faster AI, playlists saved to YouTube Music, one shared Scanned Music, reliable iPad scan results.",
+          "downloadURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/Lahn.ipa",
+          "size": 59057850,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0.2",
           "buildVersion": "2026111616",
           "date": "2026-11-16",
@@ -43,7 +52,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSMicrophoneUsageDescription": "Lahn listens for a few seconds to name the song that's playing around you, then saves it to Scanned Music."
+          "NSMicrophoneUsageDescription": "Lahn listens while you hum or sing so its AI can guess the song."
         }
       }
     }
