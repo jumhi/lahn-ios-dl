@@ -13,6 +13,15 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "14.0.1",
+          "buildVersion": "14.0.1",
+          "date": "2026-11-20",
+          "localizedDescription": "Lahn stays in the Dynamic Island and on the Lock Screen after a Scan, all of Metrolist's latest fixes (14.0.1), and no more donation pop-up.",
+          "downloadURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/Lahn.ipa",
+          "size": 59144153,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "14.0.0",
           "buildVersion": "14.0.0",
           "date": "2026-11-19",
