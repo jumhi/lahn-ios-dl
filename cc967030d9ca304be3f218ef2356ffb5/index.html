@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lahn for Mac</title>
+<style>
+  :root { --bg: #f7f5f2; --fg: #1d1b19; --muted: #6b6560; --card: #ffffff; --line: #e4dfd8; --accent: #b4462f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151312; --fg: #f1ede8; --muted: #a59d95; --card: #1f1c1a; --line: #33302c; --accent: #f08a6c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 28px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin-bottom: 18px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 16px; border-radius: 10px; font-weight: 600; margin: 4px 8px 4px 0; }
+  .note { color: var(--muted); font-size: 0.93rem; }
+  ol { padding-left: 1.3em; margin: 8px 0 0; }
+  li { margin: 4px 0; }
+  .tag { display: inline-block; font-size: 0.8rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; color: var(--muted); vertical-align: middle; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lahn for Mac</h1>
+  <p class="lead">Lahn 14.0.3 and Lahn Lyrics 1.0.0. Please don't share this page publicly.</p>
+
+  <div class="card">
+    <h2>Lahn for Mac <span class="tag">Apple Silicon (M1 or newer)</span></h2>
+    <p>The full Lahn music app, now with Lyrics Everywhere: lyrics on your lock screen, on the desktop, in the menu bar and around the screen edges while music plays.</p>
+    <a class="btn" href="https://github.com/jumhi/lahn-ios-dl/releases/download/desktop-14.0.3/Lahn-14.0.3-mac-arm64.dmg">Download Lahn for Mac</a>
+  </div>
+
+  <div class="card">
+    <h2>Lahn Lyrics for Mac <span class="tag">Apple Silicon (M1 or newer)</span></h2>
+    <p>A small menu-bar app for friends who listen in Spotify, Apple Music, YouTube Music in the browser, Anghami and others. It doesn't play music; it follows whatever is playing and shows Lahn's synced lyrics for it.</p>
+    <a class="btn" href="https://github.com/jumhi/lahn-ios-dl/releases/download/desktop-14.0.3/Lahn-Lyrics-1.0.0-mac-arm64.dmg">Download Lahn Lyrics for Mac</a>
+  </div>
+
+  <div class="card">
+    <h2>Install on a Mac</h2>
+    <ol>
+      <li>Open the downloaded .dmg file and drag the app into Applications.</li>
+      <li>The first time only: open Applications, <b>right-click</b> (or Control-click) the app and choose <b>Open</b>, then Open again. The apps aren't signed by Apple, so a normal double-click is blocked the first time.</li>
+      <li>If macOS still says it can't be opened: open System Settings &rarr; Privacy &amp; Security, scroll down and click <b>Open Anyway</b> next to the app's name.</li>
+      <li>After that it opens normally.</li>
+    </ol>
+    <p class="note">Lahn Lyrics lives in the menu bar (top right). The first time it reads Spotify or Apple Music, macOS asks whether it may control that app: click OK so the lyrics stay exactly in time.</p>
+  </div>
+
+  <div class="card">
+    <h2>Lahn for Windows <span class="tag">coming soon</span></h2>
+    <p>A Windows version is on its way and will appear here. When it does, it will be marked "not yet tested on a real PC" until someone has tried it. Lahn Lyrics for Windows comes later.</p>
+  </div>
+
+  <p class="note">Lahn doesn't update itself on Mac yet. Come back to this page for new versions.</p>
+</main>
+</body>
+</html>
