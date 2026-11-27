@@ -13,6 +13,15 @@
       "category": "entertainment",
       "versions": [
         {
+          "version": "14.0.4",
+          "buildVersion": "14.0.4",
+          "date": "2026-11-27",
+          "localizedDescription": "Lyrics are now in time, Arabic lyrics fixed, mixed Arabic/English lines in the right order. Lyrics made for the exact version that plays, so lines no longer run early or late; small jumps back are smoothed. Arabic lyrics in the song's own script are preferred. Mixed Arabic and English lines show in the right reading order. Words light up at a natural pace when a song only has line timing. New since 14.0.2: Device Connect on iPhone and iPad: see, control and move what Lahn plays on your Mac, PC and Android phone. Based on Metrolist main up to 2c0d94a38.",
+          "downloadURL": "https://jumhi.github.io/lahn-ios-dl/65ff111904e3381c326c67a6d844c5fc/Lahn.ipa",
+          "size": 64040251,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "14.0.2",
           "buildVersion": "14.0.2",
           "date": "2026-11-27",
